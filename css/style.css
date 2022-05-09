@@ -1,6 +1,7 @@
 body {}
 #main {}
-header {height:200px;width:100%;border-bottom:solid 3px #dcdcdc;}
+header {height:200px;width:100%;border-bottom: 3px outset #ccc;border-right:3px outset #ccc;border-left:2px outset #ccc;border-top:2px outset #ccc;background:#dcdcdc;}
+header:hover {border-bottom:3px inset #ccc;border-right:3px inset #ccc;border-top:2px inset #ccc;border-left:2px inset #ccc;background:#dcdcdc;}
 
 aside {}
 
