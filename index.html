@@ -1,3 +1,4 @@
+
 <title>GIMPFluent.com - Simple GIMP Tricks for Beginners</title>
 
 <head>
@@ -14,19 +15,21 @@
      
      
      <style type="text/css">
-      body {}
-#main {float:left;background:#fff;position:relative;}
-header {height:150px;width:100%;border-bottom: 3px outset #ccc;padding-left:8px;padding-top:10px;padding-bottom:none;}
+      body {width:100%;}
+#main {width:100%;float:left;background:#fff;position:relative;}
+header {height:150px;width:100%;border-bottom: 3px outset #ccc;padding-left:8px;padding-top:10px;padding-bottom:none;text-align:center;background:#dcdcdc;}
 header:hover {}
 
-aside {float:right:width:250px;background:#dcdcdc;border:2px solid #ccc;padding:8px;position:relative;}
+#sidebar {float:right:width:250px;background:#dcdcdc;border:2px solid #ccc;padding:8px;position:relative;}
 
 footer {height:150px;width:100%;border-top:2px solid #ccc;background:#dcdcdc;}
 
-h1 {font-family: 'Gabriela', serif;color:#660000;font-size:30pt;}
-h2 {font-family: 'Gabriela', serif;font-size:22pt;}
-p {font-family: 'Montserrat', sans-serif;font-size:14pt;}  
-img {float:left;padding-right:8px;}  
+h1 {font-family: 'Gabriela', serif;color:#660000;font-size:30pt;text-align:left;}
+h2 {font-family: 'Gabriela', serif;font-size:22pt;text-align:left;}
+p {font-family: 'Montserrat', sans-serif;font-size:14pt;text-align:left;padding-left:20px;padding-right:20px;border:none;} 
+span.keyword {font-weight:600;font-family: 'Montserrat', sans-serif;font-size:14pt;text-align:left;} 
+img {float:right;padding:15px;} 
+img.left {float:left;padding:15px;} 
           
      </style>
 </head>
@@ -36,29 +39,62 @@ img {float:left;padding-right:8px;}
 <body>
 <header><h1>Learn How to use GIMP for all Your Photo Editing & Graphics Needs</h1></header>
 
+
+
+
 <div id="main">
 
-<aside><h2><i>Simple GIMP Tricks for Beginner's</i> is the Missing Manual for Photo Editing Mastery Without Photoshop</h2><p>Morbi vel semper ipsum. Nulla dolor mi, consectetur eget tellus a, pretium lobortis sem. Integer ut ex vitae velit malesuada congue. Fusce eleifend pharetra erat, aliquet dictum purus. Etiam ac nibh libero. Phasellus eu tellus in lorem viverra scelerisque. Etiam porttitor venenatis elit. In interdum varius nisl tempor tempus. Nunc porta nunc sit amet accumsan iaculis. Aliquam tempus pulvinar lorem et dignissim.</p></aside>
 
-<h2>Start Editing & Creating Images With
-NO Experience OR Expensive Software<h2>
+
+<h2>Toolbox & Layers in GIMP<h2>
      
      <article>
-<img src="images/simple-gimp.png" width="548">
           <section>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae sapien tristique, volutpat lorem vel, auctor eros. Duis ut ligula in sapien volutpat malesuada. Sed tristique, libero eu elementum laoreet, enim nisi vulputate ex, et volutpat augue lectus at leo. Phasellus commodo posuere tristique. Morbi vel nisi ac ligula vestibulum fermentum. Maecenas consequat aliquet purus nec fringilla. Aenean mattis blandit orci, et mattis justo placerat sed. Aenean a feugiat justo.</p>
+<p>First and foremost, every time you open an image or create a new one using GIMP, you will want to make sure you have both your <span class="keyword"><a href="images/layers-toolbox.gif">Toolbox and Layers</a></span> dialogs open at all times.</p>
+
+<p>If these do not appear by default, go the the toolbar and click on the <span class="keyword">Windows</span> option, then scroll down to <span class="keyword"><a href="images/dockable-dialogs.gif">Dockable Dialogs</a></span>, then choose <span class="keyword">Layers</span>.</p>
+
+<p>Repeat this process and choose <span class="keyword">New Toolbox</span> to make both windows appear.
+
+</p>
           </section>
-<h2>Don't Waste Hundreds of Dollars on Photoshop</h2>
+<h2>Selection Tools in GIMP</h2>
           <section>
-<p>Donec ac tellus volutpat, viverra mauris in, porta dui. Suspendisse potenti. Etiam in nulla justo. Nullam lacinia hendrerit nisl, ut ultricies ligula. Etiam tempus bibendum libero ac tempor. Fusce sed velit rhoncus, gravida enim vitae, auctor mi. Nullam tempor est erat, eu accumsan lectus rhoncus ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+<p>There are several tools available in GIMP to make selections of a photo or image.</p>
+
+<p>The main two we will be dealing with in this guide are the <span class="keyword"><a href="images/rectangle-select.gif">Rectangle Select</a></span> tool and the <span class="keyword"><a href="images/ellipse-select.gif">Ellipse Select</a></span> tool.</p>
+
+<p>As the name suggests, the Rectangle select tool allows you to click anywhere on a photo or image and drag your cursor in order to make a rectangular selection of the image.</p>
+
+<p>The Ellipse Selection tool allows you to make circular selections of images instead.</p>
+
+<p>There are several useful actions you can use in GIMP once you've made a selection using either of these tools.</p>
+
+<p>For example, you can hit the Delete key on your keyboard and the selection you made will be removed from the image. This is similar to how a cut and paste function works in many other softwares.</p>
+
+<p>Another option would be to use your <span class="keyword"><a href="images/bucket-fill.gif">Bucket Fill</a></span> tool to fill the selection with a color of your choice.
+</p>
           </section>
-<h2>GIMP Can do Everything Photoshop Can do</h2>
+<h2>Image Guides in GIMP</h2>
 <section>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pharetra dictum ex ac varius. Duis et ullamcorper tortor. Quisque euismod non ante vitae euismod. Suspendisse mauris lectus, accumsan sit amet faucibus ac, consequat sed ante. Quisque blandit bibendum lacus vel molestie. Quisque sagittis ultricies quam, quis porta leo posuere at. Curabitur orci ex, consequat sed massa eu, vehicula commodo mi. Cras a elementum erat. Duis vel orci mi. Etiam ultrices lorem urna. Sed lectus nulla, pretium et massa at, interdum maximus mi. Pellentesque interdum vehicula lorem, at pellentesque quam bibendum quis. Phasellus imperdiet hendrerit erat. Aenean tincidunt quam a massa bibendum aliquam.</p>
+<p>A useful trick I use to ensure that my edits stay within the dimensions of a given photo is to open in GIMP, then <span class="keyword"><a href="images/select-all.png">Select All</a></span>.</p>
+
+<p>Next, go to <span class="keyword"><a href="images/image-guides.gif">Image ---> Guides ---> New Guides From Selection</a></span></p>
+
+<p>This will place guide lines around the perimeter of the photo you are editing, making it easy to keep your changes within your workspace.</p>
+
+<p>Another trick you may find useful is to also add horizontal and vertical guides at your halfway points.</p>
+
+<p>To do this, go to <span class="keyword"><a href="images/new-guides-by-percent.gif">Image ---> Guides ---> New Guide (by Percent)</a></span></p>
+
+<p>When the window pops up, choose 50% and horizontal. Then repeat these steps, changing horizontal to vertical the second time.</p>
+
+<p>This is especially handy if you are creating graphics or drawing, as you can keep the middle points of your workspace in mind as your creation develops.</p>
+</p>
 </section>
-<h2>GIMP is Intimidating to Newbies - But it Doesn't Have to be That Way Anymore</h2>
+<h2></h2>
 <section>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae sapien tristique, volutpat lorem vel, auctor eros. Duis ut ligula in sapien volutpat malesuada. Sed tristique, libero eu elementum laoreet, enim nisi vulputate ex, et volutpat augue lectus at leo. Phasellus commodo posuere tristique. Morbi vel nisi ac ligula vestibulum fermentum. Maecenas consequat aliquet purus nec fringilla. Aenean mattis blandit orci, et mattis justo placerat sed. Aenean a feugiat justo.</p>
+<p></p>
 </section>
      </article>
 </div>
